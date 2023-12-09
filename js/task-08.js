@@ -1,5 +1,4 @@
 const formLogin = document.querySelector(".login-form");
-
 const loginHandler = function (event)  {
     event.preventDefault();
     const emailText = this.elements.email;
@@ -15,5 +14,4 @@ const loginHandler = function (event)  {
         this.reset();
 }
 };
-
 formLogin.addEventListener("submit", loginHandler);
